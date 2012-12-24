@@ -1,4 +1,0 @@
-C:\Users\Andrew\Desktop\te\CiklumTweets\bin\Debug\CiklumTweets.dll
-C:\Users\Andrew\Desktop\te\CiklumTweets\bin\Debug\TwitterRepository.dll
-C:\Users\Andrew\Desktop\te\CiklumTweets\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Andrew\Desktop\te\CiklumTweets\bin\Debug\DAL.dll
