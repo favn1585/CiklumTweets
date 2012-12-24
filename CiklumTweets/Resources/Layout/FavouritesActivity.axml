@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/frameLayout1"
+    p1:background="@drawable/background">
+    <View
+        p1:layout_width="wrap_content"
+        p1:layout_height="50px"
+        p1:background="@android:color/white"
+        p1:id="@+id/view" />
+    <ImageView
+        p1:src="@drawable/twitter_logo"
+        p1:layout_width="50px"
+        p1:layout_height="50px"
+        p1:id="@+id/imageTwitter" />
+    <Button
+        p1:text="CLEAR FAVOURITES"
+        p1:layout_width="wrap_content"
+        p1:layout_height="40px"
+        p1:layout_marginTop="5px"
+        p1:gravity="center_vertical|center_horizontal"
+        p1:layout_gravity="center_horizontal"
+        p1:textSize="17sp"
+        p1:background="@drawable/button"
+        p1:textStyle="bold"
+        p1:textColor="#fff"
+        p1:id="@+id/buttonClearFavourites"
+        p1:paddingLeft="5px"
+        p1:paddingRight="5px" />
+    <ListView
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:id="@+id/List"
+        p1:scrollingCache="false"
+        p1:layout_gravity="bottom"
+        p1:layout_marginTop="50px"
+        p1:divider="@drawable/row_divider"
+        p1:dividerHeight="1px" />
+    <ImageView
+        p1:src="@drawable/ciklum_logo"
+        p1:layout_width="50px"
+        p1:layout_height="50px"
+        p1:id="@+id/imageCiklumLogo"
+        p1:layout_gravity="right" />
+</FrameLayout>
